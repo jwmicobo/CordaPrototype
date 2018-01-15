@@ -52,7 +52,8 @@ class DemoBench : App(DemoBenchView::class) {
     }
 
     init {
-        addStageIcon(Image("cordalogo.png"))
+        //addStageIcon(Image("cordalogo.png"))
+        addStageIcon(Image("micobologo.png"))
         initialiseSerialization()
     }
 

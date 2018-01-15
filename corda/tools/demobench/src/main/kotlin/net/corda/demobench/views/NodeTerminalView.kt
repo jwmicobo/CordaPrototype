@@ -78,7 +78,9 @@ class NodeTerminalView : Fragment() {
             swingTerminal.requestFocus()
         }
 
-        logo = ImageView(resources["corda-logo-square-trans.png"])
+
+        //logo = ImageView(resources["corda-logo-square-trans.png"])
+        logo = ImageView(resources["micobo-logo-square-trans.png"])
         logo.opacity = 0.0
         swingTerminal.styleClass += "terminal-widget"
         val stack = StackPane(logo, swingTerminal)
